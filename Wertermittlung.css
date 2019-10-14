@@ -1,0 +1,340 @@
+body{
+    text-align: center ;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.Startbutton {
+    -moz-box-shadow: 1px 10px 8px  #416091;
+    -webkit-box-shadow: 1px 10px 8px  #416091;
+    box-shadow: 1px 10px 8px #416091;
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #4984e3), color-stop(1, #3f61a3));
+    background:-moz-linear-gradient(top, #4984e3 5%, #3f61a3 100%);
+    background:-webkit-linear-gradient(top, #4984e3 5%, #3f61a3 100%);
+    background:-o-linear-gradient(top, #4984e3 5%, #3f61a3 100%);
+    background:-ms-linear-gradient(top, #4984e3 5%, #3f61a3 100%);
+    background:linear-gradient(to bottom, #4984e3 5%, #3f61a3 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#4984e3', endColorstr='#3f61a3',GradientType=0);
+    background-color:#4984e3;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    border-radius:10px;
+    border:2px solid #335b96;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:'Quicksand', sans-serif;
+    font-size:18px;
+    padding:16px 19px;
+    text-decoration:none;
+    text-shadow: 0 1px 0 #2b3b6b;
+
+}
+.Startbutton:hover {
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #3f61a3), color-stop(1, #4984e3));
+    background:-moz-linear-gradient(top, #3f61a3 5%, #4984e3 100%);
+    background:-webkit-linear-gradient(top, #3f61a3 5%, #4984e3 100%);
+    background:-o-linear-gradient(top, #3f61a3 5%, #4984e3 100%);
+    background:-ms-linear-gradient(top, #3f61a3 5%, #4984e3 100%);
+    background:linear-gradient(to bottom, #3f61a3 5%, #4984e3 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#3f61a3', endColorstr='#4984e3',GradientType=0);
+    background-color:#3f61a3;
+}
+.Startbutton:active {
+    position:relative;
+    top:1px;
+}
+
+.ButtonBox{
+
+    height: 80px;
+    width: 330px;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.ButtonBox2{
+    float: right;
+    margin-right: 20px;
+
+}
+
+h1{
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+h2{
+    font-family: 'Quicksand', sans-serif;
+}
+
+h3{
+    font-family: 'Quicksand', sans-serif;
+}
+
+h4{
+    font-family: 'Quicksand', sans-serif;
+}
+
+p{
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+
+
+.GeneratorBox{
+    border-color: black;
+    border-style: solid;
+    height: 700px;
+    width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.Slideshow-container{
+
+    position: relative;
+    margin: auto;
+
+}
+
+
+
+.prev, .next {
+    cursor: pointer;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: auto;
+    color: blue;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+    background-color: lightgrey;
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: lightgrey;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+    background-color: blue;
+}
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+@media only screen and (max-width: 300px) {
+    .prev, .next,.text {font-size: 11px}
+}
+
+.prevnext{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.Punkte{
+    margin-bottom: 50px;
+}
+
+.Box1{
+    height: 200px;
+    width: 200px;
+    border-style: solid;
+    border-color: lightgrey;
+    float:left;
+    margin-left: 422px;
+    display: inline-block;
+}
+
+.checkboxes input[type="checkbox"],
+.checkboxes input[type="radio"] {
+    display: none;
+}
+
+.checkboxes input[type="checkbox"]:checked + .box,
+.checkboxes input[type="radio"]:checked + .box {
+     border-color: blue;
+}
+
+
+
+
+
+.Box1-2{
+    height: 200px;
+    width: 200px;
+    border-style: solid;
+    border-color: lightgrey;
+    float:left;
+    margin-left: 50px;
+}
+
+.Box1-3{
+    height: 200px;
+    width: 200px;
+    border-style: solid;
+    border-color: lightgrey;
+    float: left;
+    margin-top: 30px;
+    margin-left: 545px;
+}
+
+
+
+.Box2, .Box3{
+    height: 200px;
+    width: 200px;
+    border-style: solid;
+    border-color: lightgrey;
+    float:left;
+    margin-left: 443px;
+}
+
+.Box2-2, .Box3-2 {
+    height: 200px;
+    width: 200px;
+    border-style: solid;
+    border-color: lightgrey;
+    float:left;
+    margin-left: 20px;
+
+}
+
+.Box2-3, .Box3-3 {
+    height: 200px;
+    width: 200px;
+    border-style: solid;
+    border-color: lightgrey;
+    float:left;
+    margin-left: 443px;
+    margin-top: 10px;
+}
+
+.Box2-4, .Box3-4 {
+    height: 200px;
+    width: 200px;
+    border-style: solid;
+    border-color: lightgrey;
+    float:left;
+    margin-left: 20px;
+    margin-top: 10px;
+
+}
+
+.renovierungsbedürftigBox{
+    height: 30px;
+    width: 50px;
+    margin-top: 20px;
+    margin-left: 590px;
+    float: left;
+}
+
+.renovierungsbedürftigBox2{
+    height: 30px;
+    width: 50px;
+    margin-top: 20px;
+    margin-left: 15px;
+    float: left;
+}
+
+.plz{
+    height: 50px;
+    width: 130px;
+
+}
+
+.wer{
+    float: left;
+    margin-left: 600px;
+}
+
+.wer2{
+    float: left;
+    margin-left: 30px;
+}
+
+.adresse{
+    border-color: black;
+    border-style: solid;
+    height: 300px;
+    width:500px;
+    margin-top: 80px;
+    margin-left: 405px;
+}
+
+.name{
+    margin-top: 65px;
+    height: 40px;
+    width: 150px;
+
+}
+
+.email{
+    height: 40px;
+    width: 305px;
+}
+
+.telefon{
+    height: 40px;
+    width: 305px;
+}
+
+.austattung{
+    height:40px;
+    width: 90px;
+    border-style: solid;
+    border-color: lightgrey;
+    float:left;
+    margin-left: 509px;
+
+}
+
+.austattung2{
+    height:40px;
+    width: 90px;
+    border-style: solid;
+    border-color: lightgrey;
+    float:left;
+    margin-left: 5px;
+}
+
+
+
